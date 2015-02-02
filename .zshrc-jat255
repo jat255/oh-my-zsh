@@ -82,7 +82,7 @@ fi
 
 bindkey -M emacs '^[[3;5~' kill-word # control-delete word
 bindkey "^[[1;5C" emacs-forward-word # control right
-bindkey "^[[1;5D" backword-word # control left
+bindkey "^[[1;5D" emacs-backward-word # control left
 
 # zsh options from zsh-newuser-install
 HISTFILE=~/.histfile
